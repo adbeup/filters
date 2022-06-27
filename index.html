@@ -51,18 +51,18 @@
             </tr>
         </table>
     </div>
-    <form action="#" class="box-regist">
+    <form action="#" class="box-regist" method="get">
         <section class="regist">
             <h2>РЕЄСТРАЦІЯ</h2>
-            <input type="name" placeholder="Ім'я*" autofocus required id="name">
-            <input type="email"  placeholder="Email*" required id="email">
-            <textarea placeholder="Ваш відгук ..."></textarea>
+            <input type="name" placeholder="Ім'я*" autofocus required id="name" name="user-name">
+            <input type="email"  placeholder="Email*" required id="email" name="user_email">
+            <textarea name="coment" placeholder="Ваш відгук ..."></textarea>
             <button type="submit" class="button-regist">НАДІСЛАТИ</button>
         </section>
         
     </form>
 
-    <form action="#"class="poryadok">
+    <form action="#" method="get" class="poryadok">
         <section>
             <h2>Обрати порядок*:</h2>
             <p>*можна обрати декілька варіантів</p>

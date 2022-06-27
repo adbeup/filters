@@ -109,7 +109,13 @@ transition-duration: 200ms;}
 
         input[type='checkbox']:checked+label{
             color: #d58e32;}
-
+/* input:focus{outline-color: #034A16} */
+input[type='email']:invalid{
+    outline-color: crimson;
+}
+input[type='email']:valid{
+    outline-color: #034a16;
+}
             .poryadok {display: block;
             width: 250px;
             box-shadow: 0 0 8px 0px #034A16;
