@@ -1,0 +1,27 @@
+body {max-width: 960px;
+height: auto;
+margin: 0 auto;
+padding: 1%;}
+.yelow {max-width: 100%;
+height: 50px;
+background-color: gold;}
+.conteiner {display: flex;
+justify-content: space-between;
+margin: 1% 0;}
+.blu {
+    max-width:54% ;
+    height: auto;
+    background-color: blue;
+}
+.grey{
+    max-width:22%;
+    height: auto;
+background-color: darkgray;}
+.red{
+    max-width:22%;
+    height: auto;
+background-color: brown;}
+.green {max-width: 100%;
+    height: 50px;
+    background-color:darkgreen;
+}
